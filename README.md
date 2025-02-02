@@ -21,10 +21,10 @@ The goal of this project is to analyze and forecast future PM2.5 readings based 
 The dataset contains 
 
 * Input features (like temperature and humidity)
-* The target variable (pm2.5), which is what you'll predict
+* The target variable (pm2.5), which will be predicted
 * Each row represents one hour of data
 
-## Dependencies
+## Dependencies and Modules
 
 * Python 3.11.2
 * Pandas
@@ -32,5 +32,8 @@ The dataset contains
 * tensorflow
 * Matplotlib
 * Scikit-learn
-
-
+* LSTM
+* Sequential
+* Bidirectional
+* Dropout
+* BatchNormalization
